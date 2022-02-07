@@ -13,7 +13,7 @@ namespace AlgorithmLab.Models
   {
     public void Solve()
     {
-      CountTheNumber(100);
+      System.Console.WriteLine(CountTheNumber(100));
     }
 
     public string[] CountTheNumber(int number)
