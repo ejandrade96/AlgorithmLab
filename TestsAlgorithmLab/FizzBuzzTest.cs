@@ -5,6 +5,15 @@ using Xunit;
 
 namespace TestsAlgorithmLab
 {
+  /*
+    Write a short program that prints each number from 1 to 100 on a new line. 
+
+    For each multiple of 3, print "Fizz" instead of the number. 
+
+    For each multiple of 5, print "Buzz" instead of the number. 
+
+    For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
+  */
   public class FizzBuzzTest
   {
     [Fact]
@@ -38,7 +47,7 @@ namespace TestsAlgorithmLab
     }
 
     [Fact]
-    public void CheckTheNumberIsDivisible_IfNotDivisibleBy3And5_ReturnsNumber()
+    public void CheckTheNumberIsDivisible_IfNotDivisibleBy3OrBy5_ReturnsNumber()
     {
       var fizzBuzz = new FizzBuzz();
 
